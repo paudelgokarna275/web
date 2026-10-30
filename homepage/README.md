@@ -1,7 +1,7 @@
 # web
 my personal website where i put games i make in godot.
 hehe
-'''
+``` text 
 ─homepage
     │   about.html
     │   contact.html
@@ -16,4 +16,3 @@ hehe
             logo.png
 
 
-'''
