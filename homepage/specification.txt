@@ -1,0 +1,25 @@
+html tags:
+<nav>
+<a>
+<li>
+<ul>
+<p>
+<input>
+<button>
+<br>
+<span>
+<img>
+
+css properties:
+text-align
+margin
+padding
+background-color
+font-size
+transition
+text-align
+font-family
+
+discription:
+I used bootstrap to make the navigation bar for my website where calss navbar and sub-classes navbar-expand-lg bg-color etc.
+I use javascript in important.html where i wrote two jokes which reveal themself when we click the buttons.

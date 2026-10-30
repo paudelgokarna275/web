@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Important</title>
+        <link href = 'styles.css' rel ="stylesheet">
+        <script>
+            document.addEventListener('DOMContentLoaded',
+            function()
+            {
+                let btns = document.querySelectorAll('.btn');
+                for(let btn of btns){
+                    btn.addEventListener('click',
+                        function()
+                        {
+                            if (btn.id == 'jk1')
+                            {
+                                btn.parentElement.querySelector('.ans').innerHTML = 'There are 10 types of people\
+                                in the world, <br> those who understand binery and those who dont.';
+                            }
+                            else if (btn.id = 'jk2')
+                            {
+                                btn.parentElement.querySelector('.ans').innerHTML = 'If you like jokes on infinite loops\
+                                here is a great <a href = "important.html">post</a> about it.';
+                            }
+                        }
+                    )
+                }
+            }
+            )
+        </script>
+    </head>
+    <body>
+        <header class = "contain">
+            <h2>SUPER IMPORTANT!!!</h2>
+            <p><h4>Press the buttons to reveal</h4></p>
+        </header>
+        <main class = 'contain'>
+            <div name = 'buttons'>
+                <button class = 'btn' id = 'jk1'>btn 1</button>
+                <br>
+                <br>
+                <button class = 'btn' id = 'jk2'>btn 2</button>
+                <p class = 'ans'></p>
+            </div>
+            <div name = 'inputs'>
+                <input type = text class = "searchbar">
+            </div>
+        </main>
+    </body>
+
+</html>
